@@ -17,4 +17,4 @@ jobs:
           pip install pytest
       - name: Teste com pytest
         run: |
-          pytest
+          pytest  --cov --cov-report=term-missing
